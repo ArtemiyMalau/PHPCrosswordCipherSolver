@@ -11,6 +11,9 @@ Before clone and run this application be sure that [NPM](https://www.npmjs.com/)
 
 Enter below commands in the following order
 
+Before entering command placed below you have to create .env file with variables of your local environment.
+Example which environment variables .env file have to store showed in .env.example.
+
 
 ```
 git clone https://github.com/ArtemiyMalau/PHPCrosswordCipherSolver
