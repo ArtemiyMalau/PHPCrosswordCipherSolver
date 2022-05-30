@@ -1,0 +1,231 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 12rem;
+}
+
+footer .container .row {
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.footer-brand, .footer-brand:focus, .footer-brand:hover {
+    color: rgba(0,0,0,.9);
+}
+
+.block-title {
+    padding-bottom: 10px;
+}
+
+.link {
+    color: #28496b;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #5178a1;
+    text-decoration: none;
+}
+
+/* Global styles */
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 550;
+}
+
+label {
+    font-size: 1.05rem;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.site-block:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.container-main {
+    padding-top: 40px;
+}
+
+/* Header styles */
+.navbar {
+    padding: .5rem 0rem;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 15px;
+}
+
+.navbar-brand {
+    font-weight: 550;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    font-size: 1.05rem;
+    background-color: #fff !important;
+    border-bottom: 1px solid #dee2e6;
+}
+
+
+.crossword_helper label.bold {
+    font-weight: 700;
+}
+
+.crossword_helper .number-row > div, .crossword_helper .head-number-row > div {
+    padding: 5px;
+}
+
+.crossword_helper .number-row > div:first-of-type, .crossword_helper .head-number-row > div:first-of-type {
+    padding-left: 15px;
+}
+
+.crossword_helper .countdown-row:not(:last-child), .crossword_helper .notifications-row:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.crossword_helper .number-row > div {
+    padding: 5px;
+    text-align: center;
+}
+
+.crossword_helper-h4 {
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.crossword_helper .form-link {
+    text-decoration: none;
+    color: #007bff;
+    border-bottom: 1px dashed #007bff;
+}
+
+.crossword_helper .form-link:hover {
+    color: #0056b3;
+    border-bottom-color: #0056b3;
+}
+
+
+.crossword_helper .background-select {
+    margin-bottom: 20px;
+}
+
+.crossword_helper .roulette-background {
+    display: inline-block;
+    max-width: 494px;
+}
+
+.crossword_helper .puzzle-background {
+    display: inline-block;
+    max-width: 1050px;
+}
+
+.crossword_helper .input-group.input-group-with-label .input-group-append span, 
+.crossword_helper .input-group.input-group-with-label .input-group-prepend span {
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    padding: .375rem .75rem;
+}
+
+.crossword_helper .input-group.input-group-with-label .input-group-prepend span {
+    padding-left: 0 !important;
+}
+
+.char .remove {
+    display: none;
+    position: absolute;
+    font-size: 12px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    top: -3px;
+    right: -3px;
+    text-decoration: none;
+    background-color: #e75832;
+    z-index: 1;
+}
+
+.char:hover .remove {
+    background: #d12c00;
+    display: block;
+}
+
+/*HEADER NEW*/
+.navbar__new{
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125)
+}
+.container__new{
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header-logo{
+
+}
+.header-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-links_list{
+    display: flex;
+}
+
+.header-desktop_hidden{
+    display: none;
+}
+@media (max-width: 992px){
+    .header-links{
+        order: 1;
+        width: 100%;
+    }
+    .header-links_list{
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width:420px){
+    .header-desktop_hidden{
+        display: block;
+    }
+    .header-mobile_hidden{
+        display: none;
+    }
+}
+/*\\\\\\HEADER NEW*/
